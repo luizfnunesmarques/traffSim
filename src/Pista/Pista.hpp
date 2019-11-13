@@ -1,10 +1,3 @@
-/*
- * Pista.hpp
- *
- *  Created on: 22/04/2015
- *      Author: LuizF
- */
-
 #ifndef PISTA_HPP_
 #define PISTA_HPP_
 #include "../core/FilaEnc.hpp"

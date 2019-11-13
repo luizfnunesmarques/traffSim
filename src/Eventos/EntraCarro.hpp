@@ -1,10 +1,3 @@
-/*
- * EntraCarro.hpp
- *
- *  Created on: 27/04/2015
- *      Author: LuizF
- */
-
 #ifndef ENTRACARRO_HPP_
 #define ENTRACARRO_HPP_
 using namespace std;

@@ -1,10 +1,3 @@
-/*
- * Relogio.hpp
- *
- *  Created on: 22/04/2015
- *      Author: LuizF
- */
-
 #ifndef RELOGIO_HPP_
 #define RELOGIO_HPP_
 #include "Eventos/Evento.hpp"

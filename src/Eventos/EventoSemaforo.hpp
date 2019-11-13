@@ -1,10 +1,3 @@
-/*
- * GiraSemaforo.hpp
- *
- *  Created on: 27/04/2015
- *      Author: LuizF
- */
-
 #ifndef EVENTOSEMAFORO_HPP_
 #define EVENTOSEMAFORO_HPP_
 

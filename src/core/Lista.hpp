@@ -1,10 +1,3 @@
-/*
- * Lista.hpp
- *
- *  Created on: 08/09/2014
- *      Author: LuizF
- */
-
 #ifndef LISTA_HPP_
 #define LISTA_HPP_
 #define NUMERO_INDEFINIDO -999
@@ -27,7 +20,7 @@ class Lista {
 	 * @brief Valida a lista para inserção de um novo elemento.
 	 * @details Verifica se a lista não está cheia.
 	 * Caso estiver, lança ERROLISTACHEIA
-	 * 
+	 *
 	 */
 	void ValidarListaParaInsercao();
 
@@ -40,7 +33,7 @@ class Lista {
 
 	/**
 	 * @brief Inicializa a lista.
-	 *  
+	 *
 	 * @param pnTam Tamanho máximo da lista.
 	 */
 	void InicializaLista(int pnTam);
@@ -48,7 +41,7 @@ class Lista {
 	/**
 	 * @brief Valida a posição informada.
 	 * @details Lança ERROPOSICAO caso a posição informada seja inválida.
-	 * 
+	 *
 	 * @param pnPos Posição.
 	 */
 	void ValidarPosicaoParaInsercao(int pnPos);
@@ -61,7 +54,7 @@ class Lista {
 
 	/**
 	 * @brief Construtor de uma lista especializada para qualquer objeto T.
-	 * 
+	 *
 	 * @param tam [description]
 	 */
 	explicit Lista(int tam);
@@ -72,14 +65,14 @@ class Lista {
 
 	/**
 	 * @brief Adiciona um dado na próxima posição disponível.
-	 * 
+	 *
 	 * @param dado Dado a ser inserido.
 	 */
 	void adiciona(T dado);
 
 	/**
 	 * @brief Adiciona um dado no inicio da lista.
-	 * @details Adiciona um dado no inicio da lista e "empurra" os demais objetos para as posições posteriores. 
+	 * @details Adiciona um dado no inicio da lista e "empurra" os demais objetos para as posições posteriores.
 	 * @param dado [description]
 	 */
 	void adicionaNoInicio(T dado);
@@ -87,7 +80,7 @@ class Lista {
 	/**
 	 * @brief Adiciona um dado na posição desejada.
 	 * @details [long description]
-	 * 
+	 *
 	 * @param dado Dado a ser inserido.
 	 * @param posicao Posição do dado a ser inserido.
 	 */
@@ -95,7 +88,7 @@ class Lista {
 
 	/**
 	 * @brief ADiciona um elemento ordenado. Ordenação decrescente.
-	 * 
+	 *
 	 * @param dado Dado a ser inserido.
 	 */
 	void adicionaEmOrdem(T dado);
@@ -104,7 +97,7 @@ class Lista {
 	 * @brief Retira um dado da lista.
 	 * @details Retira o dado da cauda da lista.
 	 * @return Dado
-	 */	 
+	 */
 	T retira();
 
 	/**
@@ -117,7 +110,7 @@ class Lista {
 	/**
 	 * @brief Retira um dado na posição informada.
 	 * @details Retira o dado que está presente na posiçao.
-	 * 
+	 *
 	 * @param posicao Posição desejada.
 	 * @return Dado retirado.
 	 */
@@ -126,7 +119,7 @@ class Lista {
 	/**
 	 * @brief Retira um dado especídifico da lista.
 	 * @details Procura o dado informado na lista, retira e devolve.
-	 * 
+	 *
 	 * @param dado dado a ser procurado e devolvido.
 	 * @return dado.
 	 */
@@ -135,16 +128,16 @@ class Lista {
 	/**
 	 * @brief Devolve a posição do dado informado.
 	 * @details [long description]
-	 * 
+	 *
 	 * @param dado Dado a ser procurado.
 	 * @return Posição.
-	 */		
+	 */
 	int posicao(T dado);
 
 	/**
 	 * @brief Verifica e um determinado dado está na lista.
 	 * @details [long description]
-	 * 
+	 *
 	 * @param dado Dado a ser procurado.
 	 * @return Boolean
 	 */
@@ -153,10 +146,10 @@ class Lista {
 	/**
 	 * @brief Verifica se um dado e igual ao outro.
 	 * @details [long description]
-	 * 
+	 *
 	 * @param dado1 dado
 	 * @param dado2 dado
-	 * 
+	 *
 	 * @return Boolean
 	 */
 	bool igual(T dado1, T dado2);
@@ -164,10 +157,10 @@ class Lista {
 	/**
 	 * @brief Verifica se um dado é maior que outro.
 	 * @details [long description]
-	 * 
+	 *
 	 * @param dado1 dado.
 	 * @param dado2 dado.
-	 * 
+	 *
 	 * @return boolean
 	 */
 	bool maior(T dado1, T dado2);
@@ -175,10 +168,10 @@ class Lista {
 	/**
 	 * @brief Verifica se um dado é menor que outro.
 	 * @details [long description]
-	 * 
+	 *
 	 * @param dado1 dado
 	 * @param dado2 dado
-	 * 
+	 *
 	 * @return boolean
 	 */
 	bool menor(T dado1, T dado2);

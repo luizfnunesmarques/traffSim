@@ -1,10 +1,3 @@
-/*
- * Central.hpp
- *
- *  Created on: 27/04/2015
- *      Author: LuizF
- */
-
 #ifndef CENTRAL_HPP_
 #define CENTRAL_HPP_
 

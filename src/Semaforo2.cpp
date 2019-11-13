@@ -1,11 +1,3 @@
-//============================================================================
-// Name        : Semaforo2.cpp
-// Author      : Luizf - Rafael
-// Version     :
-// Copyright   : 2015 GNU
-// Description : Hello World in C++, Ansi-style
-//============================================================================
-
 #include <iostream>
 #include "Sistema.hpp"
 using namespace std;

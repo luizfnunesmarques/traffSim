@@ -1,10 +1,3 @@
-/*
- * Fonte.hpp
- *
- *  Created on: 26/04/2015
- *      Author: LuizF
- */
-
 #ifndef FONTE_HPP_
 #define FONTE_HPP_
 

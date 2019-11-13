@@ -1,10 +1,3 @@
-/*
- * Sumidouro.hpp
- *
- *  Created on: 26/04/2015
- *      Author: LuizF
- */
-
 #ifndef SUMIDOURO_HPP_
 #define SUMIDOURO_HPP_
 

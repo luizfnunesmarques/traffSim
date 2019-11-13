@@ -1,10 +1,3 @@
-/*
- * CarroChegouFim.hpp
- *
- *  Created on: 27/04/2015
- *      Author: LuizF
- */
-
 #ifndef CARROCHEGOUFIM_HPP_
 #define CARROCHEGOUFIM_HPP_
 

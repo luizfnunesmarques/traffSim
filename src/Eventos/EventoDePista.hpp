@@ -1,10 +1,3 @@
-/*
- * EventoDePista.hpp
- *
- *  Created on: 27/04/2015
- *      Author: LuizF
- */
-
 #ifndef EVENTODEPISTA_HPP_
 #define EVENTODEPISTA_HPP_
 
