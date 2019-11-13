@@ -1,12 +1,3 @@
-//============================================================================
-// Name        : Simulador
-// Author      : Luizf - Rafael
-// Version     : 1.2
-// Copyright   : 
-// Description : Simulador de semároforos.
-//============================================================================
-#ifndef SISTEMA_HPP_
-#define SISTEMA_HPP_
 #include "Pista/veiculo/Carro.hpp"
 #include "Semaforo/Central.hpp"
 #include "Pista/Pista.hpp"
@@ -26,15 +17,15 @@ using namespace std;
 
 class Sistema {
 public:
-	Sistema(int intervaloSemaforos, int duracao) {
-		this->intervaloSemaforo = intervaloSemaforos;
-		this->duracao = duracao;
+	Sistema(int stop_interval, int simulation_time) {
+		this->intervaloSemaforo = stop_interval;
+		this->duracao = simulation_time;
 		criarRelogio();
 		criarSemaforos();
-		//Cria todas as pistas, basico.
 		inicializaPistas();
 	}
-	void iniciarSimulacao() {
+
+	void StartSimulation() {
 		srand(time(NULL));
 		central->abrirPrimeiroSinal();
 		relogio->AdicionaEvento(
@@ -193,5 +184,3 @@ private:
 		this->relogio = new Relogio;
 	}
 };
-
-#endif

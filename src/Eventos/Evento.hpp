@@ -1,11 +1,3 @@
-//============================================================================
-// Name        : Evento.hpp
-// Author      : Luizf
-// Version     :
-// Copyright   : 
-// Description : Hello World in C++, Ansi-style
-//============================================================================
-
 #ifndef EVENTO_HPP_
 #define EVENTO_HPP_
 using namespace std;
@@ -32,4 +24,3 @@ protected:
 };
 
 #endif
-
